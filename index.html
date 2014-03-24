@@ -44,7 +44,6 @@
   });
   MathJax.Hub.Queue(function() {
     var all = MathJax.Hub.getAllJax();
-    console.log(all);
     for (var i = 0; i < all.length; i++) {
       all[i].SourceElement().parentNode.className += ' has-jax';
     }
