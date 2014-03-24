@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Housekeeping | They Promised Us Jetpacks]]></title>
   <link href="http://scottb.github.io/blog/categories/housekeeping/atom.xml" rel="self"/>
   <link href="http://scottb.github.io/"/>
-  <updated>2014-03-23T16:59:16-04:00</updated>
+  <updated>2014-03-23T22:42:26-04:00</updated>
   <id>http://scottb.github.io/</id>
   <author>
     <name><![CDATA[Scott Brickner]]></name>
@@ -19,6 +19,70 @@
     <updated>2014-03-23T16:55:52-04:00</updated>
     <id>http://scottb.github.io/blog/2014/03/23/hello-world</id>
     <content type="html"><![CDATA[<p>This is an experiment in using Octopress together with Google Pages.</p>
+
+<p>The Lorentz Equations</p>
+
+<pre><code>$$
+  \begin{align}
+  \dot{x} &amp; = \sigma(y-x) \\
+  \dot{y} &amp; = \rho x - y - xz \\
+  \dot{z} &amp; = -\beta z + xy
+  \end{align}
+$$
+</code></pre>
+
+<p>The Cauchy-Schwarz Inequality</p>
+
+<pre><code>$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+</code></pre>
+
+<p>A Cross Product Formula</p>
+
+<pre><code>$$
+  \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+  \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+  \frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+  \frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0
+  \end{vmatrix}
+$$
+</code></pre>
+
+<p>The probability of getting $k$ heads when flipping a coin $n$ times.</p>
+
+<pre><code>$$P(E) = {n \choose k} p^k (1-p)^{n-k}$$
+</code></pre>
+
+<p>An Identity of Ramanujan</p>
+
+<pre><code>$$
+  \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
+  1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+  {1+\frac{e^{-8\pi}} {1+\ldots}}}}
+$$
+</code></pre>
+
+<p>A Rogers-Ramanujan Identity</p>
+
+<pre><code>$$
+  1 + \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots =
+  \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})},
+  \quad\quad \text{for $|q|&lt;1$}.
+$$
+</code></pre>
+
+<p>Maxwell&rsquo;s Equations</p>
+
+<pre><code>$$
+  \begin{aligned}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\   \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{aligned}
+$$
+</code></pre>
+
+<p>Finally, while display equations look good for a page of samples, the ability to mix math and text in a paragraph is also important. This
+expression <code>$\sqrt{3x-1}+(1+x)^2$</code> is an example of an inline equation. As you see, MathJax equations can be used this way as well, without unduly
+disturbing the spacing between lines.</p>
 ]]></content>
   </entry>
   
